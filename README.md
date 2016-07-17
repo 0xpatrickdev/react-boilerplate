@@ -38,5 +38,9 @@ Compiled app located in the `/build` directory.
 
 ### To Do:
 
+- add redux-style flux impplementation and an example
 - add PostCSS for Webpack plugin [https://github.com/postcss/postcss-loader](https://github.com/postcss/postcss-loader)
-- add workflow to create static site using the `static-site-generator-webpack-plugin`
+- add example for http request with axios
+- add example of css group transition
+- add more examples of material-ui components
+- add workflow step to create static site using the `static-site-generator-webpack-plugin`
