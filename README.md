@@ -37,10 +37,12 @@ npm build
 Compiled app located in the `/build` directory.
 
 ### To Do:
-
-- add redux-style flux impplementation and an example
-- add PostCSS for Webpack plugin [https://github.com/postcss/postcss-loader](https://github.com/postcss/postcss-loader)
-- add example for http request with axios
-- add example of css group transition
-- add more examples of material-ui components
-- add workflow step to create static site using the `static-site-generator-webpack-plugin`
+  
+- [x] ~~add material-ui~~
+- [x] ~~implement react-router~~ 
+- [ ] add PostCSS for Webpack plugin [https://github.com/postcss/postcss-loader](https://github.com/postcss/postcss-loader)
+- [ ] add example of flux implemenation with [Redux](https://github.com/reactjs/redux)
+- [ ] add example of http request with axios
+- [ ] add example of css group transition
+- [ ] add more examples of material-ui components
+- [ ] add workflow step to create static site using the `static-site-generator-webpack-plugin`
