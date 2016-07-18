@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
+import MaterialUIDemos from './MaterialUIDemos';
 
 const styles = {
   container: {
@@ -22,10 +23,7 @@ class Main extends Component {
         <h1>{this.props.title}</h1>
         <p>{this.props.subtitle}</p>
         <br/>
-        <h3>Material UI Component Demos</h3>
-        <ul>
-          <li><Link to='/promptdemo'>Prompt Demo</Link></li>
-        </ul>
+        <MaterialUIDemos />
       </div>
     )
   }
